@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Aryan Zende | AI/ML Portfolio</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+  <link rel="apple-touch-icon" href="assets/favicon.png" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="scanlines"></div>
+  <div class="city-bg"></div>
+
+  <!-- NAVBAR -->
+  <header class="top-bar">
+    <nav class="nav">
+      <a href="#intro" class="brand">
+        <div class="brand-avatar">
+          <img src="assets/avatar.png" alt="Aryan Zende avatar" />
+        </div>
+        <span>ARU.XP</span>
+      </a>
+
+      <div class="section-title nav-section-title">
+        <div class="section-label" id="currentSectionLabel">INTRO</div>
+        <div class="section-pixels" aria-hidden="true">
+          <i></i><i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">MENU</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#intro">INTRO</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- INTRO -->
+    <section class="section hero page-section" id="intro" data-section="INTRO">
+
+      <div class="hero-left reveal">
+        <div class="hero-kicker">
+          <span>AI & DATA SCIENCE</span>
+          <span>MACHINE LEARNING</span>
+          <span>GENAI</span>
+          <span>AI AGENTS</span>
+        </div>
+
+        <h1 class="hero-title">Hi, I'm Aryan!<span class="cursor-blink"></span></h1>
+
+        <p class="hero-text">
+          I build practical AI products using Machine Learning, Deep Learning,
+          Generative AI, AI Agents, FastAPI, LangChain, LangGraph, DSPy, and LLM-based systems.
+        </p>
+
+        <div class="hero-mini-grid">
+          <div>
+            <span>Current Mode</span>
+            <strong>Building AI Products</strong>
+          </div>
+          <div>
+            <span>Main Focus</span>
+            <strong>GenAI + Agents</strong>
+          </div>
+          <div>
+            <span>Project Count</span>
+            <strong>5+ Builds</strong>
+          </div>
+        </div>
+
+        <p class="quick-line">Don't Have Much Time?</p>
+
+        <div class="hero-actions">
+          <a href="resume.pdf" download class="pixel-btn light-btn">VIEW RESUME</a>
+          <a href="#contact" class="pixel-btn orange-btn">HIRE ME</a>
+        </div>
+      </div>
+
+      <aside class="intro-player-card reveal">
+        <div class="intro-card-head">
+          <img src="assets/avatar.png" alt="Aryan Zende avatar" />
+          <div>
+            <h2>ARYAN ZENDE</h2>
+            <p>Quick Stats</p>
+          </div>
+        </div>
+
+        <div class="intro-stat-row">
+          <span>Total<br />Projects</span>
+          <strong>5+</strong>
+        </div>
+        <div class="intro-stat-row">
+          <span>CGPA</span>
+          <strong>9.3</strong>
+        </div>
+        <div class="intro-stat-row">
+          <span>Focus</span>
+          <strong>AI Agents</strong>
+        </div>
+        <div class="intro-stat-row">
+          <span>Role</span>
+          <strong>AI / ML</strong>
+        </div>
+      </aside>
+
+      <div class="hero-bottom-console reveal">
+        <span>&gt; SYSTEM_READY</span>
+        <span>&gt; PORTFOLIO_LOADED</span>
+        <span>&gt; AI_BUILDER_MODE_ON</span>
+      </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section content-section page-section" id="about" data-section="ABOUT">
+      <h2 class="big-section-heading reveal">WHERE DID MY TIME GO?</h2>
+
+      <div class="about-terminal reveal">
+        <div class="about-row">
+          <strong>Who am I?</strong>
+          <p>Aryan Zende — AI and Data Science student with a builder mindset.</p>
+        </div>
+        <div class="about-row">
+          <strong>What I do?</strong>
+          <p>I turn ideas into practical AI products using ML, Deep Learning, GenAI, AI Agents, automation, and backend systems.</p>
+        </div>
+        <div class="about-row">
+          <strong>My domains?</strong>
+          <p>Agriculture, document intelligence, SQL automation, computer vision, dashboards, and real-world AI workflows.</p>
+        </div>
+        <div class="about-row">
+          <strong>My coding style?</strong>
+          <p>Understand the problem → build the solution → validate it → clean it → make it useful.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section content-section page-section" id="projects" data-section="PROJECTS">
+      <h2 class="big-section-heading reveal">WHERE DID MY TIME GO?</h2>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <h3>CROPSMART</h3>
+          <p>AI-powered agricultural assistant that helps farmers choose the right crop, get fertilizer suggestions, detect plant diseases, and receive chatbot support.</p>
+          <div class="project-actions"><button class="details-btn" data-project="cropsmart">VIEW DETAILS</button></div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>QUERY BUILDER</h3>
+          <p>AI-powered multi-agent system that converts natural language into safe, validated, and executable SQL queries.</p>
+          <div class="project-actions"><button class="details-btn" data-project="querybuilder">VIEW DETAILS</button></div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>AGENTDOC</h3>
+          <p>Smart PDF analyzer using GenAI that reads, understands, and answers questions from PDFs using LLMs.</p>
+          <div class="project-actions"><button class="details-btn" data-project="agentdoc">VIEW DETAILS</button></div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>FRS</h3>
+          <p>Face Recognition System that detects and recognizes faces using computer vision, OpenCV, and image processing techniques.</p>
+          <div class="project-actions"><button class="details-btn" data-project="frs">VIEW DETAILS</button></div>
+        </article>
+
+        <article class="project-card reveal">
+          <h3>AREA CALCULATION</h3>
+          <p>AI-based wall area measurement system using ArUco marker reference, homography, and pixel-to-real-world conversion.</p>
+          <div class="project-actions"><button class="details-btn" data-project="areaCalculation">VIEW DETAILS</button></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section content-section page-section" id="skills" data-section="SKILLS">
+      <div class="skill-heading-row reveal">
+        <h2 class="big-section-heading no-margin">MY SKILL DECK</h2>
+        <button class="shuffle-deck-btn" id="shuffleDeckBtn">SHUFFLE DECK</button>
+      </div>
+
+      <div class="playing-skill-area reveal">
+        <div class="playing-card-grid" id="skillDeck">
+
+          <article class="play-card red-card">
+            <span class="rank">A</span><span class="suit">♦</span>
+            <div class="skill-logo-frame"><i class="devicon-python-plain skill-logo python-logo"></i></div>
+            <h3>PYTHON</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">K</span><span class="suit">♠</span>
+            <div class="skill-logo-frame"><i class="devicon-scikitlearn-plain skill-logo sklearn-logo"></i></div>
+            <h3>MACHINE LEARNING</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">Q</span><span class="suit">♣</span>
+            <div class="skill-logo-frame"><i class="devicon-tensorflow-original skill-logo tensorflow-logo"></i></div>
+            <h3>DEEP LEARNING</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">J</span><span class="suit">♥</span>
+            <div class="skill-logo-frame"><iconify-icon icon="simple-icons:openai" class="skill-logo genai-logo"></iconify-icon></div>
+            <h3>GENAI</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">10</span><span class="suit">♠</span>
+            <div class="skill-logo-frame"><iconify-icon icon="mdi:robot-outline" class="skill-logo agent-logo"></iconify-icon></div>
+            <h3>AI AGENTS</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">9</span><span class="suit">♦</span>
+            <div class="skill-logo-frame"><i class="devicon-fastapi-plain skill-logo fastapi-logo"></i></div>
+            <h3>FASTAPI</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">8</span><span class="suit">♣</span>
+            <div class="skill-logo-frame"><iconify-icon icon="simple-icons:langchain" class="skill-logo langchain-logo"></iconify-icon></div>
+            <h3>LANGCHAIN</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">7</span><span class="suit">♥</span>
+            <div class="skill-logo-frame"><iconify-icon icon="tabler:git-merge" class="skill-logo langgraph-logo"></iconify-icon></div>
+            <h3>LANGGRAPH</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">6</span><span class="suit">♠</span>
+            <div class="skill-logo-frame"><iconify-icon icon="mingcute:ai-line" class="skill-logo dspy-logo"></iconify-icon></div>
+            <h3>DSPY</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">5</span><span class="suit">♦</span>
+            <div class="skill-logo-frame"><i class="devicon-postgresql-plain skill-logo postgres-logo"></i></div>
+            <h3>POSTGRESQL</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">4</span><span class="suit">♣</span>
+            <div class="skill-logo-frame"><i class="devicon-mysql-plain skill-logo mysql-logo"></i></div>
+            <h3>MYSQL</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">3</span><span class="suit">♥</span>
+            <div class="skill-logo-frame"><iconify-icon icon="simple-icons:opencv" class="skill-logo opencv-logo"></iconify-icon></div>
+            <h3>OPENCV</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">2</span><span class="suit">♠</span>
+            <div class="skill-logo-frame"><i class="devicon-django-plain skill-logo django-logo"></i></div>
+            <h3>DJANGO</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">K</span><span class="suit">♦</span>
+            <div class="skill-logo-frame"><i class="devicon-git-plain skill-logo git-logo"></i></div>
+            <h3>GIT</h3>
+          </article>
+
+          <article class="play-card joker-card">
+            <span class="rank">JOKER</span><span class="suit">★</span>
+            <div class="skill-logo-frame"><iconify-icon icon="simple-icons:powerbi" class="skill-logo powerbi-logo"></iconify-icon></div>
+            <h3>POWER BI</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">Q</span><span class="suit">♦</span>
+            <div class="skill-logo-frame"><iconify-icon icon="simple-icons:streamlit" class="skill-logo streamlit-logo"></iconify-icon></div>
+            <h3>STREAMLIT</h3>
+          </article>
+
+          <article class="play-card">
+            <span class="rank">J</span><span class="suit">♣</span>
+            <div class="skill-logo-frame"><iconify-icon icon="mdi:chart-bar" class="skill-logo analysis-logo"></iconify-icon></div>
+            <h3>DATA ANALYSIS</h3>
+          </article>
+
+          <article class="play-card red-card">
+            <span class="rank">A</span><span class="suit">♥</span>
+            <div class="skill-logo-frame"><i class="devicon-docker-plain skill-logo docker-logo"></i></div>
+            <h3>DOCKER</h3>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section content-section page-section" id="experience" data-section="EXPERIENCE">
+      <h2 class="big-section-heading reveal">THE GRIND SO FAR</h2>
+
+      <div class="timeline">
+        <article class="timeline-card reveal">
+          <div class="level">LEVEL<br />3</div>
+          <div class="timeline-content">
+            <h3>AI & Data Science Intern</h3>
+            <p class="company">@ MinaTechLabs</p>
+            <p class="duration">Jul 2025 – Present</p>
+            <ul>
+              <li>Building practical AI and GenAI applications using Python, FastAPI, LangChain, LangGraph, DSPy, and LLM workflows.</li>
+              <li>Working on multi-agent systems, computer vision modules, document intelligence, and backend APIs.</li>
+              <li>Converting real-world requirements into working AI products with clean logic and usable interfaces.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="level">LEVEL<br />2</div>
+          <div class="timeline-content">
+            <h3>Data Analyst Intern</h3>
+            <p class="company">@ AI Variant</p>
+            <ul>
+              <li>Worked with SQL, Excel, Power BI, and Tableau to clean, analyze, and visualize business data.</li>
+              <li>Created dashboards and reports to make insights easier to understand for non-technical users.</li>
+              <li>Reduced manual reporting effort by building structured and visual reporting workflows.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="timeline-card reveal">
+          <div class="level">LEVEL<br />1</div>
+          <div class="timeline-content">
+            <h3>AI / ML Project Builder</h3>
+            <p class="company">@ Personal Projects</p>
+            <ul>
+              <li>Built CropSmart, Query Builder, AgentDoc, FRS, and Area Calculation projects.</li>
+              <li>Practiced end-to-end ML, GenAI, computer vision, SQL automation, and deployment-style workflows.</li>
+              <li>Focused on practical AI systems that solve real problems instead of simple demo-only models.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section content-section page-section" id="contact" data-section="CONTACT">
+      <h2 class="big-section-heading reveal">LET'S CONNECT</h2>
+
+      <div class="contact-grid reveal">
+        <a href="mailto:aryanzende017@gmail.com" class="contact-card">
+          <span>EMAIL</span>
+          <strong>aryanzende017@gmail.com</strong>
+        </a>
+        <a href="https://www.linkedin.com/in/aryan-zende" target="_blank" rel="noopener" class="contact-card">
+          <span>LINKEDIN</span>
+          <strong>linkedin.com/in/aryan-zende</strong>
+        </a>
+        <a href="https://github.com/Aruuu017" target="_blank" rel="noopener" class="contact-card">
+          <span>GITHUB</span>
+          <strong>github.com/Aruuu017</strong>
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal-overlay" id="projectModal" aria-hidden="true">
+    <div class="project-modal">
+      <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+
+      <div class="modal-top">
+        <span id="modalCategory">PROJECT</span>
+        <h2 id="modalTitle">Project Title</h2>
+        <p id="modalSubtitle">Project Subtitle</p>
+      </div>
+
+      <div class="project-detail-section">
+        <h3>▸ Description</h3>
+        <ul id="modalDescription"></ul>
+      </div>
+
+      <div class="project-detail-section">
+        <h3>▸ Technologies Used</h3>
+        <div class="modal-tags" id="modalTech"></div>
+      </div>
+
+      <div class="project-detail-section">
+        <h3>▸ Thought Behind</h3>
+        <ul id="modalThought"></ul>
+      </div>
+
+      <div class="project-detail-section">
+        <h3>▸ Why This Project?</h3>
+        <ul id="modalWhy"></ul>
+      </div>
+
+      <div class="project-detail-section">
+        <h3>▸ What I Learned</h3>
+        <ul id="modalLearned"></ul>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 ARYAN ZENDE — BUILT WITH CODE + XP</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
