@@ -1,23 +1,15 @@
-# Aru Portfolio
+# Aru.XP Portfolio
 
-A modern dark-themed portfolio website for Aryan Zende.
+A retro pixel-style portfolio website built for **Aryan Zende**.  
+This portfolio presents my AI/ML projects, skills, internship experience, and contact details in a dark game-inspired UI.
 
-## Files
+## About
 
-- `index.html`
-- `style.css`
-- `script.js`
-- `resume.pdf` placeholder
+I am Aryan Zende, an AI & Data Science student focused on building practical AI products using Machine Learning, Deep Learning, Generative AI, AI Agents, Computer Vision, FastAPI, LangChain, LangGraph, DSPy, and database-driven systems.
 
-## How to run locally
+This portfolio is designed to show my work in a clean, creative, and interactive way.
 
-Open `index.html` in your browser.
+## Live Portfolio
 
-## How to deploy on GitHub Pages
-
-1. Create a repository named `yourusername.github.io`
-2. Upload these files
-3. Go to Settings > Pages
-4. Select Deploy from branch
-5. Select `main` and `/root`
-6. Open `https://yourusername.github.io`
+```text
+https://Aruuu017.github.io
