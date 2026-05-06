@@ -12,4 +12,4 @@ This portfolio is designed to show my work in a clean, creative, and interactive
 ## Live Portfolio
 
 ```text
-https://Aruuu017.github.io
+https://aryanzende.github.io/
